@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFFFFF;
+    height: 92px;
+    width: 1600px;
+    padding: 16px 120px;
+}
+    
+.font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .menu{
+    list-style: none;
+    width: 365px;
+    height: 24px;
+    gap: 32px;
+    padding: 34;
+    display: flex;
+}
+
+nav .menu a{
+    text-decoration: none;
+    line-height: 152%;
+    font-size: medium;
+    color: #000000;
+}
+
+.btn{
+    border: none;
+    background-color: #30B868;
+    color: #FFFFFF;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
