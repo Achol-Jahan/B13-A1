@@ -6,7 +6,6 @@
 header{
     background-color: #FFFFFF;
     height: 92px;
-    width: 1600px;
     padding: 16px 120px;
 }
     
@@ -16,7 +15,7 @@ header{
   }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 nav .menu{
@@ -46,5 +45,122 @@ nav .menu a{
     cursor:pointer;
     font-size: 16px;
     font-weight: 600;
+}
+
+.green{
+    color: #30B868;
+}
+
+#hero-banner{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+}
+
+#hero-banner .banner-element{
+    border: 2px solid brown;
+    padding: 70px 120px 134px 120px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.banner-button{
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    gap: 6px;
+    background-color: #FFFFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.btn2{
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    width: 183px;
+    height: 19px;
+    font-size:16px;
+    line-height: 100%;
+    color: #30B868;
+    cursor: pointer;
+}
+
+.btn-icn{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.banner-button2{
+    display: flex;
+    gap: 16px;
+}
+.btn3{
+    border: none;
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    gap: 10px;
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background-color: #30B868;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn4
+{
+    width: 198px;
+    height: 52px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12px 16px;
+    gap: 10px;
+    background-color: transparent;
+
+    color: #FFFFFF;
+    font-size:16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.banner-element .banner-title{
+    width: 770px;
+    height: 168px;
+    align-items: center;
+    color:#FFFFFF;
+    opacity: 90%;
+    font-weight: 700;
+    size: 72px;
+    line-height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+}
+
+.banner-element p{
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 1360px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
