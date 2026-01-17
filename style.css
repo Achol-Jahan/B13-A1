@@ -56,10 +56,11 @@ nav .menu a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 674px;
+    padding-top: 80px;
 }
 
 #hero-banner .banner-element{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     padding: 70px 120px 134px 120px;
     height: 380px;
     display: flex;
@@ -136,25 +137,30 @@ nav .menu a{
     line-height: 100%;
 }
 .banner-element .banner-title{
+    /* border: 2px solid red; */
     width: 770px;
+    /* width: 800px; */
     height: 168px;
     align-items: center;
     color:#FFFFFF;
     opacity: 90%;
     font-weight: 700;
-    size: 72px;
-    line-height: 84px;
+    font-size: 25px;
+    /* line-height: 84px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF; */
+    text-align: center;
+    /* gap: 0px; */
+    text-transform:capitalize
 }
 
 .banner-element p{
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF; */
     color: #FFFFFF;
-    width: 1360px;
+    /* width: 1360px; */
     height: 60px;
     font-size: 18px;
     line-height: 24px;
@@ -162,5 +168,170 @@ nav .menu a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
+#second-heading{
+    /* height: 448px; */
+    margin-top: 130px;
+    width: 1360px;
+    height: 152px;
+    padding: 0px 120px 120px 120px;
+    gap: 16px;
+    background-color:#FFFFFF;
+    /* display: flex; */
+    align-items: center;
+
+}
+
+#second-heading h1{
+    width: 1360px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+#second-heading p{
+    width: 1360px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    display: flex;
+    justify-content: center;
+}
+.card-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-elements{
+    border-radius: 8px;
+    padding: 24px;
+    gap: 16px;
+    width: 322px;
+    height: 300px;   
+    box-shadow: 0px 0px 8px #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-elements img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.card-elements h4{
+    width: 274px;
+    /* height: 29px; */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #001931;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.card-elements p{
+    width: 274px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.brain-banner{
+    width: 1600px;
+    height: 840px;
+    padding: 120px;
+    gap: 40px;
+    background-color: #FFFFFF;
+   
+}
+.brain-banner-content{
+    width: 1360px;
+    height: 600px;
+    gap: 60px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brain-banner-content img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.textbox{
+    width: 700px;
+    height: 396px;
+    /* border: 2px solid #000000; */
+}
+
+.textbox .heading-part{
+    gap: 16px;
+}
+
+.textbox .heading-part .p1{
+    width: 700px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #30B868;
+}
+
+.textbox .heading-part h2{
+    width: 700px;
+    /* height: 117px; */
+    font-weight: bold;
+    font-size: 48px;
+    color: #001931;
+}
+.textbox .paragraph{
+    margin-top: 16px;
+}
+.textbox .heading-part .p2{
+    width: 700px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382
+}
+.point{
+    margin-top: 40px;
+}
+
+.key_points{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.key_points img{
+    height: 20px;
+    width: 20px;
+}
+.key_points p{
+    /* border:2px solid #F95555; */
+    /* width: 382px; */
+    height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+}
