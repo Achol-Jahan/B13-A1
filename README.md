@@ -6,7 +6,7 @@ The website focuses on creating a clear and organized learning experience where 
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [Add your live link here]
+🔗 **Live Website:** https://achol-jahan.github.io/B13-A1/
 
 ## 📸 Preview
 
@@ -105,7 +105,7 @@ Personal-Knowledge-Vault/
 
 ## 🔗 Relevant Links
 
-* 🌐 **Live Website:** [Add live link]
+* 🌐 **Live Website:** https://achol-jahan.github.io/B13-A1/
 * 💻 **GitHub Repository:** https://github.com/Achol-Jahan/B13-A1
 
 ## 👨‍💻 Author
