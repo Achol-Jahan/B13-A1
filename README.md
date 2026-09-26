@@ -8,12 +8,6 @@ The website focuses on creating a clear and organized learning experience where 
 
 🔗 **Live Website:** https://achol-jahan.github.io/B13-A1/
 
-## 📸 Preview
-
-<!-- Add your project screenshot here -->
-
-![Personal Knowledge Vault Preview](./assets/project-preview.png)
-
 ## 🛠️ Technologies Used
 
 * HTML5
